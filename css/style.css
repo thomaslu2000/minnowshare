@@ -1,0 +1,56 @@
+html, body {
+    height:100%;
+    
+}
+body {
+    font-family: 'Quicksand', sans-serif; 
+    color: #404040;
+}
+h1 {font-size:3.2em;}
+a{
+    color: inherit;
+}
+p {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 2.1em;
+}
+
+#logintable table {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#logintable h2 {
+    color: lightskyblue;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+}
+#search_file_type {
+    display: none;
+}
+.profilepic {
+    margin: auto;
+    width: inherit;
+    max-width: 90%;
+    padding: 20px 20px 20px 20px;
+    transition: 0.3s;
+}
+.profilepic:hover {
+    transform: scale(1.1);
+}
+
+.filepic{
+    max-width: 90%;
+    padding: 20px 20px 20px 20px;
+}
+
+table th {
+    width: 20%;    
+}
+
+.no-color:hover{
+    color: inherit;
+    text-decoration: none;    
+}

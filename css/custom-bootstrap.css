@@ -1,0 +1,78 @@
+.jumbotron{
+/*    border-radius: 20px 20px 20px 20px;*/
+    padding: 10px 10px 10px 10px;
+    font-size: calc(0.75em + 1vw);
+    background-color: #c8e8ff;
+}
+
+.bg-site-blue {
+    background-color: #c8e8ff;
+}
+
+/* Adds borders for tabs */
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.nav-tabs {
+    margin-bottom: 0;
+}
+
+.card{
+    padding: 10px 10px 10px 10px;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 4px #363636;
+    z-index: 2;
+}
+
+.alert-primary{
+    padding: 0 5px 0 5px;
+}
+
+.card-body{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.list-group-item{
+    overflow-y: auto;
+}
+
+.navbar-light{
+    -moz-box-shadow: inset 2px 5px 5px rgba(255, 255, 255, .5), inset -1px -4px 5px rgba(100, 100, 100, .5);
+    -webkit-box-shadow:inset 2px 5px 5px rgba(255, 255, 255, .5), inset -1px -4px 5px rgba(100, 100, 100, .5);
+    box-shadow: inset 2px 5px 5px rgba(255, 255, 255, .5), inset -1px -4px 5px rgba(100, 100, 100, .5);
+}
+
+.nav-item{
+    font-size: 1.3em;
+    transition: 0.1s;
+}
+.nav-item:hover{
+    transform: scale(1.08);
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%0' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%0' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li{
+    background-color: gray;
+}
+
+#carouselIndicators {
+    width: 60vw;
+}
+.card-header{
+    padding-top: 0;
+    padding-bottom: 0;
+}
